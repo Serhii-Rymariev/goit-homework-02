@@ -22,16 +22,26 @@ body {
   color: var(--iris, #4d5ae5);
 }
 .header-menu-item {
+  color: var(--navyblue, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.header-menu-item:hover,
+.header-menu-item:focus {
+  color: var(--ocean, #404bbf);
+}
 .headet-contacts-list {
+  color: var(--slate, #434455);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.headet-contacts-list:hover,
+.headet-contacts-list:focus {
+  color: var(--ocean, #404bbf);
 }
 .effective-title {
   color: var(--white, #fff);
@@ -47,6 +57,11 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.effective-title-btn:hover {
+  border-radius: 4px;
+  background: var(--ocean, #404bbf);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .info-item-logo {
