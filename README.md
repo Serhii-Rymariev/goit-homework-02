@@ -1,2 +1,2 @@
-# homework-1
-https://serhii-rymariev.github.io/homework-1/
+# homework-2
+https://serhii-rymariev.github.io/goit-homework-02/
