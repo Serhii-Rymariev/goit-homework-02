@@ -75,6 +75,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 .effective-title-btn:hover {
   border-radius: 4px;
@@ -118,7 +119,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.team-logo-list{background-color: #FFFFFF;}
+.team-logo-list{background-color: #FFFFFF}
 .team-name {
   color: var(--navyblue, #2e2f42);
 
@@ -126,6 +127,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
 }
 .team-job-title {
   color: var(--slate, #434455);
@@ -136,14 +138,14 @@ body {
   letter-spacing: 0.02em;
 }
 .footer-logo {
-  color: var(--cloud, #f4f4fd);
+  color: var(--iris, #4D5AE5);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-logo link{font-family: "Raleway", sans-serif;
+.footer-logo{font-family: "Raleway", sans-serif;
 line-height: 1.17;
 color: #4d5ae5;}
 .footer-logo-web {
