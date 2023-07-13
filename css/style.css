@@ -7,7 +7,11 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color:#FFFFFF;
+  
 }
+
 .list {
   list-style-type: none;
 }
@@ -16,17 +20,17 @@ body {
 }
 
 .header-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 .header-logo-web {
-  color: var(--iris, #4d5ae5);
+  color:#2e2f42;
 }
 .header-menu-item {
   color: var(--navyblue, #2e2f42);
@@ -39,6 +43,9 @@ body {
 .header-menu-item:focus {
   color: var(--ocean, #404bbf);
 }
+.header-contacts{
+  font-style: normal;
+}
 .headet-contacts-list {
   color: var(--slate, #434455);
   font-size: 16px;
@@ -50,6 +57,8 @@ body {
 .headet-contacts-list:focus {
   color: var(--ocean, #404bbf);
 }
+
+
 .effective-title {
   color: var(--white, #fff);
 
@@ -57,24 +66,28 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .effective-title-btn {
   color: var(--white, #fff);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
 }
 .effective-title-btn:hover {
   border-radius: 4px;
   background: var(--ocean, #404bbf);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  
 }
-
+.effective-title-btn:focus{background-color: #404BBF;}
+  
 .info-item-logo {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -94,7 +107,18 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
+
+.team-logo{
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-logo-list{background-color: #FFFFFF;}
 .team-name {
   color: var(--navyblue, #2e2f42);
 
@@ -119,8 +143,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.footer-logo link{font-family: "Raleway", sans-serif;
+line-height: 1.17;
+color: #4d5ae5;}
 .footer-logo-web {
-  color: var(--iris, #4d5ae5);
+  color: #f4f4fd;
 }
 .footer-info {
   color: #f4f4fd;
