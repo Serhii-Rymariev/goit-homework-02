@@ -120,6 +120,7 @@ body {
   text-transform: capitalize;
 }
 .team-logo-list{background-color: #FFFFFF;}
+
 .team-name {
   color: var(--navyblue, #2e2f42);
 
@@ -172,16 +173,75 @@ color: #4d5ae5;}
 }
 
 /*----------portfolio------------*/
-.port-btn-all {color: var(--white, #FFF);
-  background: var(--ocean, #404BBF);
-font-size: 16px;
+.pr-btn-all {font-family: "Roboto", sans-serif;
 font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;}
-.port-btn { 
-  color: var(--iris, #4D5AE5);
-background: var(--cloud, #F4F4FD);
 font-size: 16px;
-font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.02em;}
+letter-spacing: 0.04em;
+color: #4d5ae5;
+background-color:#F4F4FD;
+cursor: pointer;
+}
+.pr-btn-all:hover 
+{color:#FFFFFF;
+background-color: #404BBF;}
+.pr-btn-all:focus
+{color:#FFFFFF;
+background-color: #404BBF;}
+
+.pr-btn-web {font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4d5ae5;
+background-color:#F4F4FD;
+cursor: pointer;}
+.pr-btn-web:hover 
+{color:#FFFFFF;
+background-color: #404BBF;}
+.pr-btn-web:focus
+{color:#FFFFFF;
+background-color: #404BBF;}
+.pr-btn-app {font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4d5ae5;
+background-color:#F4F4FD;
+cursor: pointer;}
+.pr-btn-app:hover 
+{color:#FFFFFF;
+background-color: #404BBF;}
+.pr-btn-app:focus
+{color:#FFFFFF;
+background-color: #404BBF;}
+.pr-btn-desing {font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4d5ae5;
+background-color:#F4F4FD;
+cursor: pointer;}
+.pr-btn-desing:hover 
+{color:#FFFFFF;
+background-color: #404BBF;}
+.pr-btn-desing:focus
+{color:#FFFFFF;
+background-color: #404BBF;}
+.pr-btn-marcheting{font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4d5ae5;
+background-color:#F4F4FD;
+cursor: pointer;}
+.pr-btn-marcheting:hover 
+{color:#FFFFFF;
+background-color: #404BBF;}
+.pr-btn-marcheting:focus
+{color:#FFFFFF;
+background-color: #404BBF;}
