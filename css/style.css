@@ -73,7 +73,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
-  
+  cursor: pointer;
 }
 .effective-title-btn:hover {
   
@@ -177,7 +177,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #4d5ae5;
 background-color:#F4F4FD;
-
+cursor: pointer;
 }
 .pr-btn-all:hover 
 {color:#FFFFFF;
