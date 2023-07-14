@@ -119,7 +119,9 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.team-logo-list{background-color: #FFFFFF;}
+.team-logo-list {
+ background-color: #F4F4FD;}
+ .team-logo-item{background-color: #FFFFFF;}
 
 .team-name {
   color: var(--navyblue, #2e2f42);
