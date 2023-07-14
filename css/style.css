@@ -78,9 +78,9 @@ body {
   cursor: pointer;
 }
 .effective-title-btn:hover {
-  border-radius: 4px;
+  
   background: var(--ocean, #404bbf);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  
   cursor: pointer;
   
 }
@@ -166,8 +166,9 @@ color: #4d5ae5;}
   background: var(--iris, #4d5ae5);
 }
 .team {
-  background: var(--cloud, #f4f4fd);
+  background-color: #FFFFFF;
 }
+.doing-section{background-color: #FFFFFF;}
 .footer {
   background: var(--navyblue, #2e2f42);
 }
